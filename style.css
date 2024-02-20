@@ -11,7 +11,7 @@ body {
 }
 
 .hero {
-  background-color: #000;
+  background-color: #000000;
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -20,6 +20,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/c58c1676414533.5c9790bee9632.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
