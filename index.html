@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Produs Nike</title>
+  </head>
+  <body>
+    <section class="hero" id="acasa">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#despre">Despre</a></li>
+          <li><a href="#products">Produse</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <h1>Nike</h1>
+        <h2>Just Do IT :)</h2>
+        <p>
+          Descoperiți ultimele tendințe în materie de încălțăminte și
+          îmbrăcăminte Nike.
+        </p>
+      </div>
+    </section>
+
+    <section class="despre" id="despre">
+      <h1>Despre Nike</h1>
+      <p>
+        Compania Nike este un lider global în producția de încălțăminte,
+        echipamente sportive și îmbrăcăminte. Din 1964, Nike a dezvoltat și
+        inovat tehnologii care ajută sportivii să ajungă la performanțe maxime.
+        De la celebra linie de încălțăminte Air Max, până la inovativul sistem
+        de amortizare Nike React, produsele Nike sunt recunoscute pentru
+        designul lor de înaltă calitate și performanță.
+      </p>
+    </section>
+
+    <section class="products" id="products">
+      <h1>Produse</h1>
+
+      <div class="cards">
+        <div class="card">
+          <img
+            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/eef48e0e-fa3a-4434-b334-9000bd1fe1c9/air-jordan-1-retro-high-og-white-and-gold-womens-shoes-Hnf3kV.png"
+            alt="Imagine 1"
+          />
+          <p class="description">Air Jordan 1 Retro High OG "White and Gold"</p>
+          <p class="price">180$</p>
+          <a href="#" class="buy">Buy</a>
+        </div>
+        <div class="card">
+          <img
+            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/af0639c6-9959-4141-b1f1-22f3127fdbe2/jordan-1-retro-high-og-white-and-gold-little-kids-shoes-rz8Cf6.png"
+            alt="Imagine 2"
+          />
+          <p class="description">Jordan 1 Retro High OG "White and Gold"</p>
+          <p class="price">160$</p>
+          <a href="#" class="buy">Buy</a>
+        </div>
+        <div class="card">
+          <img
+            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/676d3e5c-6ac0-4e23-9c70-0c2fc78d212e/air-jordan-4-retro-bred-reimagined-big-kids-shoes-pbvmfj.png"
+            alt="Imagine 3"
+          />
+          <p class="description">Air Jordan 4 Retro "Bred Reimagined"</p>
+          <p class="price">220$</p>
+          <a href="#" class="buy">Buy</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1>Contactați-ne</h1>
+      <form action="/submit" method="post">
+        <label for="name">Nume:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Name ..."
+          required
+        />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email ..."
+          required
+        />
+        <label for="message">Mesaj:</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Message ..."
+          required
+        ></textarea>
+        <input type="submit" value="Trimite" />
+      </form>
+    </section>
+  </body>
+</html>
